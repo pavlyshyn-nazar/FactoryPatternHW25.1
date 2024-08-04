@@ -2,7 +2,7 @@ package app;
 
 class CarFactory extends TransportFactory {
     @Override
-    Transport createTransport() {
+    Transportable createTransport() {
         return new Car();
     }
 }

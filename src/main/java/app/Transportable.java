@@ -1,5 +1,5 @@
 package app;
 
-interface Transport {
+interface Transportable {
     void move();
 }

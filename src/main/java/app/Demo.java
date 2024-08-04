@@ -1,13 +1,14 @@
 package app;
 
 class Demo {
-    public void run() {
+
+    public static void main(String[] args) {
         TransportFactory carFactory = new CarFactory();
-        Transport car = carFactory.createTransport();
+        Transportable car = carFactory.createTransport();
         car.move();
 
         TransportFactory planeFactory = new PlaneFactory();
-        Transport plane = planeFactory.createTransport();
+        Transportable plane = planeFactory.createTransport();
         plane.move();
     }
 }
